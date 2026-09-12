@@ -1,6 +1,6 @@
 # device_systems
 
-**Aprendiz:** Juan Camilo Sarrazola
+**Aprendiz:** Carlos Santis
 **Actividad:** GA1-220501096-01-AA1-EV08 — FastAPI Intermedio: Evolución de device_systems con CRUD completo, manejo de errores, Swagger/OpenAPI y Dependency Injection
 
 ---
@@ -126,7 +126,7 @@ curl -X PATCH http://127.0.0.1:8000/users/3 \
   -d '{"role": "support"}'
 ```
 ```json
-{"name": "Camilo Sarrazola", "email": "camilo@correo.com", "role": "support", "is_active": false, "id": 3}
+{"name": "Carlos Santis", "email": "carlossantis@correo.com", "role": "support", "is_active": false, "id": 3}
 ```
 Solo cambió `role`; el resto de los campos quedó intacto. Código: `200 OK`
 

@@ -6,7 +6,7 @@ app = FastAPI(
     title="device_systems API",
     description="API REST para la gestion de usuarios del sistema device_systems",
     version="2.0.0",
-    contact={"name": "Juan Camilo Sarrazola", "email": "camilo@correo.com"},
+    contact={"name": "Carlos Santis", "email": "carlossantis@correo.com"},
     openapi_tags=[{"name": "Users", "description": "Operaciones CRUD sobre usuarios"}],
 )
 
